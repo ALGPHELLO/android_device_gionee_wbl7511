@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 
-# Inherit some common Cosmic stuff.
+# Inherit some common stuff.
 $(call inherit-product, vendor/viper/config/common_full_phone.mk)
 
 # Inherit device configuration
