@@ -3,7 +3,7 @@
     "remote": "github",
     "repository": "DarkWoodens/android_device_gionee_wbl7511",
     "target_path": "device/gionee/wbl7511",
-    "branch": "master"
+    "branch": "CosmicOS"
   },
   {
     "remote": "github",
