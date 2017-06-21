@@ -16,7 +16,7 @@
 #
 
 # Inherit some common Cosmic stuff.
-$(call inherit-product, vendor/cos/common.mk)
+$(call inherit-product, vendor/viper/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, $(LOCAL_PATH)/device_wbl7511.mk)
@@ -30,6 +30,6 @@ PRODUCT_BRAND := Gionee
 PRODUCT_DEVICE := wbl7511
 PRODUCT_MANUFACTURER := Gionee
 PRODUCT_MODEL := Gionee S_plus
-PRODUCT_NAME := cos_wbl7511
+PRODUCT_NAME := viper_wbl7511
 PRODUCT_RELEASE_NAME := wbl7511
 PRODUCT_RESTRICT_VENDOR_FILES := false
