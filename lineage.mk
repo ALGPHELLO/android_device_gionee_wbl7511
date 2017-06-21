@@ -15,13 +15,8 @@
 # limitations under the License.
 #
 
-<<<<<<< HEAD
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
-=======
-# Inherit some common Cosmic stuff.
-$(call inherit-product, vendor/viper/config/common_full_phone.mk)
->>>>>>> parent of c0cffb0... Update wbl_android.mk
 
 # Inherit device configuration
 $(call inherit-product, $(LOCAL_PATH)/device_wbl7511.mk)
