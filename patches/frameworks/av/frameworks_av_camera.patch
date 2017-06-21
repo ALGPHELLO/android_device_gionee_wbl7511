@@ -1,20 +1,3 @@
- camera/CameraParameters.cpp                        |   3 +
- camera/cameraserver/cameraserver.rc                |   2 +-
- include/camera/CameraParameters.h                  |   3 +
- include/media/stagefright/ColorConverter.h         |   6 +
- include/media/stagefright/MediaBufferGroup.h       |  12 +-
- include/media/stagefright/MediaCodec.h             |  11 +
- media/libstagefright/Android.mk                    |   6 +
- media/libstagefright/colorconversion/Android.mk    |  10 +
- .../colorconversion/ColorConverter.cpp             | 235 +++++++-
- .../colorconversion/inc/DpBlitStream.h             | 209 +++++++
- .../libstagefright/colorconversion/inc/DpConfig.h  |  24 +
- .../colorconversion/inc/DpDataType.h               | 631 +++++++++++++++++++++
- .../libstagefright/foundation/MediaBufferGroup.cpp |  12 +-
- .../camera/libcameraservice/api1/CameraClient.cpp  |  99 +++-
- .../camera/libcameraservice/api1/CameraClient.h    |   5 +
- 15 files changed, 1257 insertions(+), 11 deletions(-)
-
 diff --git a/camera/CameraParameters.cpp b/camera/CameraParameters.cpp
 index 76f92e7..38cdc5f 100644
 --- a/camera/CameraParameters.cpp
