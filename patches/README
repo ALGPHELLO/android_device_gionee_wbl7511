@@ -1,5 +1,10 @@
 This is patch directory
 
 cd WORKING_DIR
-. device/gionee/wbl7511/patches/install.sh
-. device/gionee/wbl7511/patches/uninstall.sh
+sh device/*/*/patches/install.sh
+sh device/*/*/patches/uninstall.sh
+
+Imported from : 
+---------------
+
+[*samgrande*](https://github.com/samgrande)
