@@ -1,5 +1,5 @@
 # OTA assert
-TARGET_OTA_ASSERT_DEVICE := wbl7511,SPlus,Gionee S Plus
+TARGET_OTA_ASSERT_DEVICE := WBL7511,wbl7511,SPlus,GIONEE
 
 # Bionic
 
